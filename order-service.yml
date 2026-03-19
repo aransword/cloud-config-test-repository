@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/msa_step02_order?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+
+service:
+  payment:
+    url: http://payment-service/payments
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.neflix.eureka: TRACE
+    com.netflix.discovery: TRACE
+
+# cloud cofig 테스트용 설정 값
+custom:
+  message: "변경된 메시지 - TEST 환경입니다"
+  version: "1.0.0"
