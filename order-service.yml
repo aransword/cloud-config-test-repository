@@ -16,5 +16,5 @@ logging:
 
 # cloud cofig 테스트용 설정 값
 custom:
-  message: "Spring Boot Actuator"
-  version: "1.0.1"
+  message: "Spring Boot Actuator Test"
+  version: "1.0.2"
